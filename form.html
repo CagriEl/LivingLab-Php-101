@@ -1,0 +1,55 @@
+<!-- 
+
+GET
+POS
+POST
+Html formlarından gönderilen verileri kullanıcıya göstermeden
+gönderim yapılmasın ısağlar. Get metoduna göre daha güvenli olduğu bilinir.
+Çünkü veri işlemlerini arka planda yapar
+GET
+
+Form gönderme metodudur.  URL seklinde gönderir. Bu yüzden
+Veri gönderilirken zafiyet yaratabilir.
+
+ -->
+<!-- 
+POST METODU
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form Gönderiyoruz</title>
+ </head>
+ <body>
+     <form name="gonder" action="gonder_post.php" method="POST">
+            <input type="text" name="ad" placeholder="Adınız">
+            <input type="text" name="soyad" placeholder="Soyadınız"><br><br>
+           <textarea name="mesaj" id="" cols="30" rows="10" placeholder="Mesajınız"></textarea>
+           <br> <br><input type="submit" value="Gönder">
+     </form>
+ </body>
+ </html> 
+
+
+ //GET METODU
+ 
+  <!DOCTYPE html>
+ <html lang="tr">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>GET metodu İLE GÖNDERME</title>
+ </head>
+ <body>
+     <form name="gonder" action="gonder_get.php" method="GET">
+            <input type="text" name="ad" placeholder="Adınız">
+            <input type="text" name="soyad" placeholder="Soyadınız"><br><br>
+           <textarea name="mesaj" id="" cols="30" rows="10" placeholder="Mesajınız"></textarea>
+           <br> <br><input type="submit" value="Gönder">
+     </form>
+ </body>
+ </html>  -->

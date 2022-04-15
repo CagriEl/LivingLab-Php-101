@@ -131,9 +131,4 @@
 // $ogrenci_ad2 = &$ogrenci_ad;
 // unset($ogrenci_ad);
 // echo  "Selam"." ".$ogrenci_ad2 ;
-
-
-
-
-
 ?>
